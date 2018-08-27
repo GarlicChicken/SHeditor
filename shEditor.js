@@ -1,7 +1,8 @@
 const shStyle = document.createElement('link');
 shStyle.rel = "stylesheet";
-shStyle.href = "style.css";
+shStyle.href = "https://garlicchicken.github.io/shEditor/shStyle.css";
 document.getElementsByTagName('head')[0].appendChild(shStyle);
+
 
 const shfontAwesome = document.createElement('link');
 shfontAwesome.rel = "stylesheet"
