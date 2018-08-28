@@ -93,7 +93,6 @@ function shEditor(formId, inputName){
     $("#inputName").attr("name",inputName);
 };
 function btnAction(res, attr){
-    console.log(res, attr);
     if( typeof attr === 'undefined'){
         document.execCommand(res);
     }else{
